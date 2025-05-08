@@ -22,7 +22,7 @@ https://www.kaggle.com/meriemaadou/models
 # 🧠 Project Structure
 ```bash
 main/
-├── xception-focal-loss.ipynb              # Training using Focal Loss with class weighting
+├── xception-focal-loss.ipynb               # Training using Focal Loss with adjusted alpha
 ├── xception-cce-class_weights.ipynb       # Training using CCE Loss with class weights
 ├── acne-rosacea.ipynb                     # Transfer learning for acne & rosacea classification
 ├── bullous.ipynb                          # Transfer learning for bullous skin conditions
