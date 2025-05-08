@@ -20,7 +20,7 @@ Pretrained .h5 model files (including model weights and architectures of model t
 https://www.kaggle.com/meriemaadou/models
 
 # 🧠 Project Structure
-
+```bash
 main/
 ├── xception-focal-loss.ipynb              # Training using Focal Loss with class weighting
 ├── xception-cce-class_weights.ipynb       # Training using CCE Loss with class weights
@@ -29,6 +29,7 @@ main/
 ├── eczema.ipynb                           # Transfer learning for eczema-related conditions
 ├── skin-cancer.ipynb                      # Transfer learning for skin cancer classification
 └── README.md                              # Project documentation
+```
 
 #🧪 Comparative Model Training
 Two versions of the main classification model were trained using different loss functions to evaluate their performance:
